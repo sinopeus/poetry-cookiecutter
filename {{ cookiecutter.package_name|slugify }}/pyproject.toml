@@ -48,6 +48,7 @@ streamlit = "^1.3.0"
 {%- endif %}
 {%- if cookiecutter.with_typer_cli|int %}
 typer = "^0.4.0"
+click = "<=8.0.4"
 {%- endif %}
 {%- if cookiecutter.with_fastapi_api|int %}
 uvicorn = { extras = ["standard"], version = "^0.16.0" }
